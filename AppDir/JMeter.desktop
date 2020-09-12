@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=JMeter
+Comment=Application designed to load test functional behavior and measure performance.
+Exec=AppRun %U
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=jmeter
+StartupWMClass=jmeter
+StartupNotify=true
