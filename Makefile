@@ -22,7 +22,7 @@ all: clean
 	echo "Building: $(OUTPUT)"
 
 	mkdir --parents $(PWD)/build
-	wget --output-document=$(PWD)/build/build.zip --continue https://apache.mirror.digionline.de//jmeter/binaries/apache-jmeter-5.3.zip
+	wget --output-document=$(PWD)/build/build.zip --continue https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.4.3.zip
 	unzip $(PWD)/build/build.zip -d $(PWD)/build/
 
 	wget --no-check-certificate --output-document=$(PWD)/build/build.rpm --continue https://forensics.cert.org/centos/cert/8/x86_64/jdk-12.0.2_linux-x64_bin.rpm
